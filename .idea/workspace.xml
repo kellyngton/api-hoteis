@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="32d376f2-46c4-426c-89e0-31ad7c79ac1c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/hoteis/src/main/java/api/kellyngton/hoteis/client/response/Price.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hoteis/src/main/java/api/kellyngton/hoteis/client/response/Room.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hoteis/src/main/java/api/kellyngton/hoteis/exception/HotelsNotFindException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hoteis/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hoteis/src/test/java/api/kellyngton/hoteis/builders/HoteisResponseApiBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hoteis/src/test/java/api/kellyngton/hoteis/builders/HotelResponseClientBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hoteis/src/test/java/api/kellyngton/hoteis/builders/PriceBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hoteis/src/test/java/api/kellyngton/hoteis/builders/RoomBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hoteis/src/test/java/api/kellyngton/hoteis/config/WireMockConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hoteis/src/test/java/api/kellyngton/hoteis/controller/HoteisControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hoteis/src/test/java/api/kellyngton/hoteis/service/GetHoteisServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hoteis/src/test/java/api/kellyngton/hoteis/target/MocksHotels.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hoteis/src/test/java/api/kellyngton/hoteis/target/application-test.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hoteis/src/test/java/api/kellyngton/hoteis/target/get-books-response.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2FiUOUAIK2KfrmS3pZgLKTxmfEW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/kelld/Documents/Faculdade/Vagas - estagios/Full-Cycle-It- Solutions/Desafio Técnico (RestFull_API)"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="32d376f2-46c4-426c-89e0-31ad7c79ac1c" name="Changes" comment="" />
+      <created>1664974366431</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1664974366431</updated>
+      <workItem from="1664974368319" duration="55000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
