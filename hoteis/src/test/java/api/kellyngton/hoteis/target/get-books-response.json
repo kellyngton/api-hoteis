@@ -1,0 +1,38 @@
+[{
+
+  "id": 1,
+  "name": "Hotel Teste 1",
+  "cityCode": 1032,
+  "cityName": "Porto Seguro",
+  "rooms": [
+
+    {
+
+      "roomID": 0,
+      "categoryName": "Standard",
+      "price": {
+        "adult": 1372.54,
+        "child": 848.61
+      }
+    }
+  ]
+
+},
+  {
+    "id": 2,
+    "name": "Hotel Teste 2",
+    "cityCode": 1032,
+    "cityName": "Porto Seguro",
+    "rooms": [
+      {
+        "roomID": 1,
+        "categoryName": "Standard",
+        "price": {
+          "adult": 1248.54,
+          "child": 439.61
+        }
+      }
+    ]
+  }
+
+]
