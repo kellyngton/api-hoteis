@@ -6,6 +6,7 @@ import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
+import javax.validation.constraints.Min;
 import javax.validation.constraints.NotBlank;
 
 @Getter
@@ -15,5 +16,6 @@ import javax.validation.constraints.NotBlank;
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class HotelRequest {
     @NotBlank(message = "O id não pode ser nulo.")
+    @Min(value = 0, message = "O id não pode ser negativo.")
     private long id;
 }

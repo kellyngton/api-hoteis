@@ -41,6 +41,8 @@ public class GetHoteisServiceImpl implements GetHoteisService {
                             .build();
                     BeanUtils.copyProperties(hotelResponseClient1, hoteisResponseApi1);
                     hoteisResponseApi.add(hoteisResponseApi1);
+
+
                 });
                 return hoteisResponseApi;
             }

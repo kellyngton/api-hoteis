@@ -2,21 +2,27 @@ package api.kellyngton.hoteis.controller;
 
 import api.kellyngton.hoteis.builders.HoteisResponseApiBuilder;
 import api.kellyngton.hoteis.restapi.HoteisController;
+import api.kellyngton.hoteis.restapi.response.HoteisResponseApi;
 import api.kellyngton.hoteis.service.GetHoteisServiceImpl;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.http.MediaType;
 import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.web.servlet.MockMvc;
+import org.springframework.test.web.servlet.ResultActions;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import static org.hamcrest.core.Is.is;
-import static org.mockito.Mockito.when;
+import static org.mockito.Mockito.*;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
@@ -54,7 +60,7 @@ public class HoteisControllerTest {
                     .andExpect(jsonPath("$[0].valorTotal", is(1941.89)));
         }
 
-/*        @Test
+        @Test
         @DisplayName("Deve lançar uma exceção quando não encontrar hoteis")
         void buscarHoteisQuandoCodigoCidadeInexistenteTest() throws Exception {     //TODO: verificar se é o melhor jeito de fazer, concertar o teste.
             //Arrange
@@ -69,5 +75,5 @@ public class HoteisControllerTest {
             //assert
             verify(hoteisController,times(1)).hoteis(0);
 
-        }*/
+        }
 }
